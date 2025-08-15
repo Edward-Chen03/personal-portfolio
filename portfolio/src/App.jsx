@@ -11,7 +11,7 @@ function App() {
       tech: ['React', 'Node.js', 'MongoDB'],
       repoUrl: 'https://github.com/Edward-Chen03/nba.tools',
       gradient: 'purple-blue',
-      image: '/nbatoolslogo.png'
+      image: `${import.meta.env.BASE_URL}nbatoolslogo.png`
     },
     {
       name: 'Mediflow',
@@ -19,7 +19,7 @@ function App() {
       tech: ['React', 'Node.js', 'MongoDB'],
       repoUrl: 'https://github.com/Edward-Chen03/Mediflow',
       gradient: 'green-blue',
-      image: '/mediflow.png'
+      image: `${import.meta.env.BASE_URL}mediflow.png`
     },
 
   ]
@@ -90,7 +90,7 @@ function App() {
         <div className="about-container">
           <div className="avatar">
             <img
-              src="/EdwardChen_Headshot.JPG"
+              src={`${import.meta.env.BASE_URL}EdwardChen_Headshot.JPG`}
               alt="Edward Chen"
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
             />
@@ -236,7 +236,7 @@ function App() {
               </p>
 
               <a
-                href="/EdwardChen_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`} 
                 download="Edward_Chen_Resume.pdf"
                 className="download-button"
               >
@@ -246,7 +246,7 @@ function App() {
 
             <div className="pdf-viewer">
               <iframe
-                src="/EdwardChen_Resume.pdf"
+                src={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}
                 width="100%"
                 height="800px"
                 style={{ border: 'none' }}
@@ -254,7 +254,7 @@ function App() {
               >
                 <p>
                   Your browser does not support PDFs.
-                  <a href="EdwardChen_Resume.pdf" download="Edward_Chen_Resume.pdf">Download the PDF</a>.
+                  <a href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}  download="Edward_Chen_Resume.pdf">Download the PDF</a>.
                 </p>
               </iframe>
             </div>
