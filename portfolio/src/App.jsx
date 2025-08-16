@@ -21,6 +21,14 @@ function App() {
       gradient: 'green-blue',
       image: `${import.meta.env.BASE_URL}mediflow.png`
     },
+    {
+      name: 'Forecast Viewer',
+      description: 'A flask run web application to display the hourly and weekly forecast. Implements weatherAPI and utilizies geolocation capabilities.',
+      tech: ['Javascript', 'Flask', 'PostgreSQL'],
+      repoUrl: 'https://github.com/Edward-Chen03/ForecastViewer',
+      gradient: 'blue-blue',
+      image: `${import.meta.env.BASE_URL}forecastviewerlogo.png`
+    },
 
   ]
 
@@ -217,8 +225,8 @@ function App() {
               <ul className="skill-list">
                 <li className="skill-item">Git/GitHub</li>
                 <li className="skill-item">VIM</li>
-                <li className="skill-item">AWS</li>
                 <li className="skill-item">VS Code</li>
+                <li className="skill-item">Microsoft Office Suite</li>
               </ul>
             </div>
           </div>
