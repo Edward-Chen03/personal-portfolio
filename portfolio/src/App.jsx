@@ -245,7 +245,7 @@ function App() {
 
               <a
                 href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`} 
-                download="Edward_Chen_Resume.pdf"
+                download="EdwardChen_Resume.pdf"
                 className="download-button"
               >
                 Download PDF Resume
@@ -262,7 +262,7 @@ function App() {
               >
                 <p>
                   Your browser does not support PDFs.
-                  <a href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}  download="Edward_Chen_Resume.pdf">Download the PDF</a>.
+                  <a href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}  download="EdwardChen_Resume.pdf">Download the PDF</a>.
                 </p>
               </iframe>
             </div>
