@@ -45,7 +45,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'experience', 'projects', 'skills', 'resume']
+      const sections = ['about', 'experience', 'projects', 'skills', 'resume', 'contact']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -79,7 +79,8 @@ function App() {
                 { id: 'experience', label: 'Experience' },
                 { id: 'projects', label: 'Projects' },
                 { id: 'skills', label: 'Skills' },
-                { id: 'resume', label: 'Resume' }
+                { id: 'resume', label: 'Resume' },
+                { id: 'contact', label: 'Contact' }
               ].map((tab) => (
                 <button
                   key={tab.id}
@@ -137,12 +138,10 @@ function App() {
                 <p className="job-company">Stony Brook Campus Residences • 2022 - 2024</p>
                 <p className="job-description">
                   <ul>
-                    <li>Orchestrated the planning and execution of events catering to 200+ students, collaborating with computer scienceoriented clubs, organizations, and coordinating efforts among fellow staff members.</li>
-                    <li>Oversaw logistical arrangements, providing technical support for building systems such as Echo360 and
-                      audiovisual equipment.
-                    </li>
-                    <li>Provided live mentorship and guidance leading to successful tech workshops and increased student engagement.</li>
-
+                    <li>Orchestrated events for 200+ students in collaboration with computer science clubs and organizations</li>
+                    <li>Coordinated logistical arrangements and provided technical support for Echo360 and audiovisual systems</li>
+                    <li>Ensured reliable performance of classroom technology and computers for daily use and events</li>
+                    <li>Mentored students during tech workshops, boosting engagement and learning outcomes</li>
                   </ul>
 
                 </p>
@@ -201,32 +200,33 @@ function App() {
             <div className="skill-category">
               <h3 className="skill-category-title">Languages</h3>
               <ul className="skill-list">
-                <li className="skill-item">React</li>
+                <li className="skill-item">Python</li>
                 <li className="skill-item">JavaScript</li>
                 <li className="skill-item">CSS/Tailwind</li>
                 <li className="skill-item">HTML</li>
-                <li className="skill-item">Python</li>
                 <li className="skill-item">Java</li>
+                <li className="skill-item">C</li>
               </ul>
             </div>
 
             <div className="skill-category">
               <h3 className="skill-category-title">Databases</h3>
               <ul className="skill-list">
-                <li className="skill-item">DynamoDB</li>
-                <li className="skill-item">PostgreSQL</li>
                 <li className="skill-item">MongoDB</li>
+                <li className="skill-item">PostgreSQL</li>
+                <li className="skill-item">DynamoDB</li>
                 <li className="skill-item">Firebase</li>
               </ul>
             </div>
 
             <div className="skill-category">
-              <h3 className="skill-category-title">Design Tools</h3>
+              <h3 className="skill-category-title">Frameworks/Libraries</h3>
               <ul className="skill-list">
-                <li className="skill-item">Git/GitHub</li>
-                <li className="skill-item">VIM</li>
-                <li className="skill-item">VS Code</li>
-                <li className="skill-item">Microsoft Office Suite</li>
+                <li className="skill-item">React</li>
+                <li className="skill-item">Flask</li>
+                <li className="skill-item">Node.js</li>
+                <li className="skill-item">Express.js</li>
+                <li className="skill-item">FastAPI</li>
               </ul>
             </div>
           </div>
@@ -244,7 +244,7 @@ function App() {
               </p>
 
               <a
-                href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`} 
+                href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}
                 download="EdwardChen_Resume.pdf"
                 className="download-button"
               >
@@ -262,7 +262,7 @@ function App() {
               >
                 <p>
                   Your browser does not support PDFs.
-                  <a href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}  download="EdwardChen_Resume.pdf">Download the PDF</a>.
+                  <a href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`} download="EdwardChen_Resume.pdf">Download the PDF</a>.
                 </p>
               </iframe>
             </div>
@@ -270,16 +270,28 @@ function App() {
         </div>
       </section>
 
+      <section id="contact" className="contact-section">
+        <div className="section-container">
+          <h2 className="section-title">Contact Me</h2>
+          <div className="contact-content">
+            <p className="contact-description">
+              I am open to all Software Engineer and Data Science opportunities!
+            </p>
+          </div>
+          <div className="contact-info">
+            <div className="contact-item">
+              <span className="contact-email">nyc.chen.edward@gmail.com</span>
+            </div>
+            <div className="contact-item">
+              <span className="contact-email">718-213-9142</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer className="footer">
         <div className="footer-container">
-          <h3 className="footer-title">Contact Me</h3>
-          <p className="footer-description">
-            I am open to all Software Engineer and Data Science opportunities!
-          </p>
-          <div className="footer-contact">
-            <span>nyc.chen.edward@gmail.com</span>
-          </div>
-          <p className="footer-copyright">© 2025 Edward Chen. All rights reserved.</p>
+          <p className="footer-copyright">© 2025 Edward Chen</p>
         </div>
       </footer>
     </div>
