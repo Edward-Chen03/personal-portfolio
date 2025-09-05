@@ -150,7 +150,7 @@ function App() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3 className="job-title">IT Operations Specialist</h3>
-                <p className="job-company">Stony Brook Campus Residences • 2022 - 2024</p>
+                <p className="job-company">Stony Brook Campus Residences • 2022 - 2025</p>
                 <p className="job-description">
                   <ul>
                     <li>Provided technical support during events for 200+ students across campus facilities</li>
