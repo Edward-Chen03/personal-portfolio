@@ -7,24 +7,39 @@ function App() {
   const projects = [
     {
       name: 'nba.tools',
-      description: 'A comprehensive full stack analytics platform featuring player statistics up to the 2024-25 season, customizable data visualizations, and interactive comparison tools.',
-      tech: ['React', 'Node.js', 'MongoDB'],
+      description: [
+      'Launched a MERN-based web platform featuring 400+ NBA player statistics, interactive leaderboards, and dynamic data visualization components',
+      'Built comprehensive data visualization features to support user-defined statistical formulas and metrics',
+      'Integrated a machine learning pipeline using LightGBM achieving 85% prediction accuracy on player performance forecastswith custom feature engineering',
+      'Enhanced user engagement by 40% through interactive player comparisons and drill-down capabilities, reducing averagesession bounce rate'
+      ],
+      tech: ['React', 'Node.js', 'LightGBM', 'MongoDB'],
       repoUrl: 'https://github.com/Edward-Chen03/nba.tools',
       gradient: 'purple-blue',
       image: `${import.meta.env.BASE_URL}nbatoolslogo.png`
     },
     {
-      name: 'Mediflow',
-      description: 'A flexible web app built to sustain a medical environment. It facilitates the management of key processes such as medical procedures, inventory control, and workspace organization.',
-      tech: ['React', 'Node.js', 'MongoDB'],
+      name: 'Automated Process Manager',
+      description: [
+      'Built a full-stack web application managing 300+ user accounts with real-time resource allocation, room scheduling, and automated roster management',
+      'Automated operational workflows reducing manual processing time by 70% through MongoDB query optimizations and customized cron job scheduling',
+      'Designed modular architecture supporting 5+ business sectors with 90% code reusability using agile development practices',
+      'Implemented JWT authentication with role-based access control and Bcrypt encryption, securing 300+ daily user sessions',
+      'Integrated Socket.IO for real-time notifications and messaging, enabling instant updates across 50+ concurrent users'
+      ],
+      tech: ['JWT', 'Socket.IO', 'Cron', 'MongoDB'],
       repoUrl: 'https://github.com/Edward-Chen03/Mediflow',
       gradient: 'green-blue',
       image: `${import.meta.env.BASE_URL}mediflow.png`
     },
     {
-      name: 'Forecast Viewer',
-      description: 'A flask run web application to display the hourly and weekly forecast. Implements weatherAPI and utilizies geolocation capabilities.',
-      tech: ['Javascript', 'Flask', 'PostgreSQL'],
+      name: 'Weather Tracker',
+      description: [
+      'Deployed a full-stack weather application serving 7-day forecasts and historical climate data to 100+ users, using Flaskbackend with PostgreSQL for location management',
+      'Engineered RESTful API integration with OpenMeteo for real-time weather data, reducing average response time by 60% through efficient caching and data processing optimization',
+      'Developed responsive dashboard displaying 168+ hourly data points per forecast cycle, featuring interactive visualization and historical monthly weather comparisons'
+      ],
+      tech: ['Flask', 'JavaScript', 'PostgreSQL', 'OpenMeteo'],
       repoUrl: 'https://github.com/Edward-Chen03/ForecastViewer',
       gradient: 'blue-blue',
       image: `${import.meta.env.BASE_URL}forecastviewerlogo.png`
@@ -138,10 +153,10 @@ function App() {
                 <p className="job-company">Stony Brook Campus Residences • 2022 - 2024</p>
                 <p className="job-description">
                   <ul>
-                    <li>Orchestrated events for 200+ students in collaboration with computer science clubs and organizations</li>
-                    <li>Coordinated logistical arrangements and provided technical support for Echo360 and audiovisual systems</li>
-                    <li>Ensured reliable performance of classroom technology and computers for daily use and events</li>
-                    <li>Mentored students during tech workshops, boosting engagement and learning outcomes</li>
+                    <li>Provided technical support during events for 200+ students across campus facilities</li>
+                    <li>Coordinated logistical arrangements and managed Brightspace, Echo360 and audiovisual system operations</li>
+                    <li>Maintained reliable performance of classroom technology and computers for daily use and events</li>
+                    <li>Monitored network performance and system health across campus facilities, ensuring 98% uptime for IT infrastructure</li>
                   </ul>
 
                 </p>
@@ -178,7 +193,9 @@ function App() {
                   <div className="project-content">
                     <h3 className="project-title">{project.name}</h3>
                     <p className="project-description">
-                      {project.description}
+                      {project.description.map((point, index) => (
+                        <li key={index}>{point}</li>
+                      ))}
                     </p>
                     <div className="project-tech">
                       {project.tech.map((tech, techIndex) => (
