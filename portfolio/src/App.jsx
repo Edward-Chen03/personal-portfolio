@@ -35,7 +35,7 @@ function App() {
     {
       name: 'Weather Tracker',
       description: [
-      'Deployed a full-stack weather application serving 7-day forecasts and historical climate data to 100+ users, using Flaskbackend with PostgreSQL for location management',
+      'Deployed a Flask web application with PostgreSQL database design, implementing user location management and datacaching for 100+ user accounts',
       'Engineered RESTful API integration with OpenMeteo for real-time weather data, reducing average response time by 60% through efficient caching and data processing optimization',
       'Developed responsive dashboard displaying 168+ hourly data points per forecast cycle, featuring interactive visualization and historical monthly weather comparisons'
       ],
