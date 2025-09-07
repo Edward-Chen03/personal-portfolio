@@ -261,8 +261,8 @@ function App() {
               </p>
 
               <a
-                href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}
-                download="EdwardChen_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}EdwardChen_Resume_portfolio.pdf`}
+                download="EdwardChen_Resume_portfolio.pdf"
                 className="download-button"
               >
                 Download PDF Resume
@@ -271,7 +271,7 @@ function App() {
 
             <div className="pdf-viewer">
               <iframe
-                src={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`}
+                src={`${import.meta.env.BASE_URL}EdwardChen_Resume_portfolio.pdf`}
                 width="100%"
                 height="800px"
                 style={{ border: 'none' }}
@@ -279,7 +279,7 @@ function App() {
               >
                 <p>
                   Your browser does not support PDFs.
-                  <a href={`${import.meta.env.BASE_URL}EdwardChen_Resume.pdf`} download="EdwardChen_Resume.pdf">Download the PDF</a>.
+                  <a href={`${import.meta.env.BASE_URL}EdwardChen_Resume_portfolio.pdf`} download="EdwardChen_Resume_portfolio.pdf">Download the PDF</a>.
                 </p>
               </iframe>
             </div>
@@ -298,9 +298,6 @@ function App() {
           <div className="contact-info">
             <div className="contact-item">
               <span className="contact-email">nyc.chen.edward@gmail.com</span>
-            </div>
-            <div className="contact-item">
-              <span className="contact-email">718-213-9142</span>
             </div>
           </div>
         </div>
