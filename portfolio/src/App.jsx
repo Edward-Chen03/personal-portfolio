@@ -24,8 +24,8 @@ function App() {
       'Built a full-stack web application managing 300+ user accounts with real-time resource allocation, room scheduling, and automated roster management',
       'Automated operational workflows reducing manual processing time by 70% through MongoDB query optimizations and customized cron job scheduling',
       'Designed modular architecture supporting 5+ business sectors with 90% code reusability using agile development practices',
-      'Implemented JWT authentication with role-based access control and Bcrypt encryption, securing 300+ daily user sessions',
-      'Integrated Socket.IO for real-time notifications and messaging, enabling instant updates across 50+ concurrent users'
+      'Implemented JWT authentication with role-based access control and Bcrypt encryption, securing 1,000+ daily user sessions',
+      'Integrated Socket.IO for real-time notifications and messaging, enabling instant updates across 100+ concurrent users'
       ],
       tech: ['JWT', 'Socket.IO', 'Cron', 'MongoDB'],
       repoUrl: 'https://github.com/Edward-Chen03/Mediflow',
