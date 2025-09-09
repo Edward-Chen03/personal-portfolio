@@ -6,7 +6,7 @@ function App() {
 
   const projects = [
     {
-      name: 'nba.tools',
+      name: 'NBA Analytics Dashboard',
       description: [
       'Launched a MERN-based web platform featuring 400+ NBA player statistics, interactive leaderboards, and dynamic data visualization components',
       'Built comprehensive data visualization features to support user-defined statistical formulas and metrics',
@@ -19,7 +19,7 @@ function App() {
       image: `${import.meta.env.BASE_URL}nbatoolslogo.png`
     },
     {
-      name: 'Automated Process Manager',
+      name: 'Workflow Automation Platform',
       description: [
       'Built a full-stack web application managing 300+ user accounts with real-time resource allocation, room scheduling, and automated roster management',
       'Automated operational workflows reducing manual processing time by 70% through MongoDB query optimizations and customized cron job scheduling',
@@ -33,7 +33,7 @@ function App() {
       image: `${import.meta.env.BASE_URL}mediflow.png`
     },
     {
-      name: 'Weather Tracker',
+      name: 'Weather Insights Monitor',
       description: [
       'Deployed a Flask web application with PostgreSQL database design, implementing user location management and datacaching for 100+ user accounts',
       'Engineered RESTful API integration with OpenMeteo for real-time weather data, reducing average response time by 60% through efficient caching and data processing optimization',
