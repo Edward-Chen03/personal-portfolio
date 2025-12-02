@@ -114,8 +114,8 @@ function App() {
         <div className="about-container">
           <div className="avatar">
             <img
-              src={`${import.meta.env.BASE_URL}EdwardChen_Headshot.JPG`}
-              alt="Edward Chen"
+              src={`${import.meta.env.BASE_URL}`}
+              alt=""
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
             />
           </div>
