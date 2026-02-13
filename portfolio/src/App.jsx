@@ -123,7 +123,9 @@ function App() {
             Edward Chen
           </h1>
           <p className="about-description">
-            Hello! I recently graduated from Stony Brook University with a double major in Computer Science and Applied Mathematics. Drawing upon my proficiency in Java, JavaScript and Python, I am eager to contribute and succeed.
+            Hello! I’m a full-time Associate Software Engineer with a strong interest in full-stack development and DevOps.
+
+            I enjoy building scalable applications end-to-end and continuously improving development workflows. Always open to learning and collaboration!
           </p>
           <div className="about-links">
             <a href="https://www.linkedin.com/in/edwardchen03/" target="_blank" rel="noopener noreferrer" className="about-link">
@@ -292,7 +294,7 @@ function App() {
           <h2 className="section-title">Contact Me</h2>
           <div className="contact-content">
             <p className="contact-description">
-              I am open to all Software Engineer and Data Science opportunities!
+              I am open to any collaboration Software Engineering opportunities!
             </p>
           </div>
           <div className="contact-info">
