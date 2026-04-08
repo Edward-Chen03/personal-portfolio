@@ -123,7 +123,7 @@ function App() {
             Edward Chen
           </h1>
           <p className="about-description">
-            Hello! I’m a full-time Associate Software Engineer with a strong interest in full-stack development and DevOps.
+            Hello! I’m an incoming Software Engineer with a strong interest in full-stack development and DevOps.
 
             I enjoy building scalable applications end-to-end and continuously improving development workflows. Always open to learning and collaboration!
           </p>
@@ -152,7 +152,7 @@ function App() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3 className="job-title">IT Operations Specialist</h3>
-                <p className="job-company">Stony Brook Campus Residences • 2022 - 2025</p>
+                <p className="job-company">Stony Brook Campus Residences • 2022 - 2024</p>
                 <p className="job-description">
                   <ul>
                     <li>Provided technical support during events for 200+ students across campus facilities</li>
@@ -307,7 +307,7 @@ function App() {
 
       <footer className="footer">
         <div className="footer-container">
-          <p className="footer-copyright">© 2025 Edward Chen</p>
+          <p className="footer-copyright">© 2026 Edward Chen</p>
         </div>
       </footer>
     </div>
