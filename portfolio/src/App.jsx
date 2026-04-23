@@ -114,7 +114,7 @@ function App() {
         <div className="about-container">
           <div className="avatar">
             <img
-              src={`${import.meta.env.BASE_URL}`}
+              src={`${import.meta.env.BASE_URL}headshot.JPG`}
               alt=""
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
             />
@@ -123,9 +123,9 @@ function App() {
             Edward Chen
           </h1>
           <p className="about-description">
-            Hello! I’m an incoming Software Engineer with a strong interest in full-stack development and DevOps.
+            Hello! I'm an incoming software engineer with a strong interest in full-stack development and DevOps.
 
-            I enjoy building scalable applications end-to-end and continuously improving development workflows. Always open to learning and collaboration!
+            I enjoy building scalable applications end-to-end and continuously improving development workflows.
           </p>
           <div className="about-links">
             <a href="https://www.linkedin.com/in/edwardchen03/" target="_blank" rel="noopener noreferrer" className="about-link">
@@ -294,7 +294,7 @@ function App() {
           <h2 className="section-title">Contact Me</h2>
           <div className="contact-content">
             <p className="contact-description">
-              I am open to any collaboration Software Engineering opportunities!
+              I am open to any learning and collaboration opportunities!
             </p>
           </div>
           <div className="contact-info">
