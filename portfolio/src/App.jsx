@@ -8,10 +8,7 @@ function App() {
     {
       name: 'NBA Analytics Dashboard',
       description: [
-        'Launched a MERN-based web platform featuring 400+ NBA player statistics, interactive leaderboards, and dynamic data visualization components',
-        'Built comprehensive data visualization features to support user-defined statistical formulas and metrics',
-        'Integrated a machine learning pipeline using LightGBM achieving 85% prediction accuracy on player performance forecastswith custom feature engineering',
-        'Enhanced user engagement by 40% through interactive player comparisons and drill-down capabilities, reducing averagesession bounce rate'
+        'Developed a full-stack NBA analytics platform for the 2024–25 season, providing advanced player statistics, interactive visualizations, custom metric analysis, and machine-learning-based performance predictions.'
       ],
       tech: ['React', 'Node.js', 'LightGBM', 'MongoDB'],
       repoUrl: 'https://github.com/Edward-Chen03/nba.tools',
@@ -21,11 +18,7 @@ function App() {
     {
       name: 'Workflow Automation Platform',
       description: [
-        'Built a full-stack web application managing 300+ user accounts with real-time resource allocation, room scheduling, and automated roster management',
-        'Automated operational workflows reducing manual processing time by 70% through MongoDB query optimizations and customized cron job scheduling',
-        'Designed modular architecture supporting 5+ business sectors with 90% code reusability using agile development practices',
-        'Implemented JWT authentication with role-based access control and Bcrypt encryption, securing 1,000+ daily user sessions',
-        'Integrated Socket.IO for real-time notifications and messaging, enabling instant updates across 100+ concurrent users'
+        'Created a scalable full-stack management platform featuring scheduling, resource allocation, automated workflows, secure user authentication, and real-time communication capabilities.'
       ],
       tech: ['JWT', 'Socket.IO', 'Cron', 'MongoDB'],
       repoUrl: 'https://github.com/Edward-Chen03/Mediflow',
@@ -35,9 +28,7 @@ function App() {
     {
       name: 'Weather Insights Monitor',
       description: [
-        'Deployed a Flask web application with PostgreSQL database design, implementing user location management and datacaching for 100+ user accounts',
-        'Engineered RESTful API integration with OpenMeteo for real-time weather data, reducing average response time by 60% through efficient caching and data processing optimization',
-        'Developed responsive dashboard displaying 168+ hourly data points per forecast cycle, featuring interactive visualization and historical monthly weather comparisons'
+        'Built a full-stack weather analytics platform that delivered real-time forecasts, historical weather comparisons, and interactive dashboards through REST API integration and efficient data caching.'
       ],
       tech: ['Flask', 'JavaScript', 'PostgreSQL', 'OpenMeteo'],
       repoUrl: 'https://github.com/Edward-Chen03/ForecastViewer',
