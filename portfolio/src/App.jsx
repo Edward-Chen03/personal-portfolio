@@ -114,9 +114,9 @@ function App() {
             Edward Chen
           </h1>
           <p className="about-description">
-            Hello! I'm an incoming software engineer with a strong interest in full-stack development and DevOps.
+            Hi!
 
-            I enjoy building scalable applications end-to-end and continuously improving development workflows.
+            I'm passion-driven developer who enjoys building scalable applications end-to-end and continuously improving development workflows.
           </p>
           <div className="about-links">
             <a href="https://www.linkedin.com/in/edwardchen03/" target="_blank" rel="noopener noreferrer" className="about-link">
@@ -140,16 +140,16 @@ function App() {
           <h2 className="section-title">Experience</h2>
           <div className="experience-timeline">
 
-            {/* <div className="timeline-item blue">
+             <div className="timeline-item blue">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
-                <h2 className="job-title">Incoming Associate Software Engineer</h2>
-                <p className="job-company"></p>
+                <h2 className="job-title"> Associate Software Engineer</h2>
+                <p className="job-company">Present</p>
                 <p className="job-description">
                 </p>
                 <div className="job-tags"></div>
               </div>
-            </div> */}
+            </div> 
 
             <div className="timeline-item blue">
               <div className="timeline-dot"></div>
