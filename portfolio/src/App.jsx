@@ -140,7 +140,7 @@ function App() {
           <h2 className="section-title">Experience</h2>
           <div className="experience-timeline">
 
-             <div className="timeline-item blue">
+             {/* <div className="timeline-item blue">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h2 className="job-title"> Associate Software Engineer</h2>
@@ -149,9 +149,9 @@ function App() {
                 </p>
                 <div className="job-tags"></div>
               </div>
-            </div> 
+            </div>  */}
 
-            <div className="timeline-item blue">
+            {/* <div className="timeline-item blue">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h2 className="job-title">Software Engineer</h2>
@@ -165,7 +165,7 @@ function App() {
                   <span className="tag blue">Backend Web Development</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="timeline-item blue">
               <div className="timeline-dot"></div>
