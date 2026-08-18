@@ -116,7 +116,7 @@ function App() {
           <p className="about-description">
             Hi!
 
-            I'm passion-driven developer who enjoys building scalable applications end-to-end and continuously improving development workflows.
+            I'm a passion-driven developer who enjoys building scalable applications end-to-end and continuously improving development workflows.
           </p>
           <div className="about-links">
             <a href="https://www.linkedin.com/in/edwardchen03/" target="_blank" rel="noopener noreferrer" className="about-link">
@@ -151,7 +151,7 @@ function App() {
               </div>
             </div>  */}
 
-            {/* <div className="timeline-item blue">
+             <div className="timeline-item blue">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h2 className="job-title">Software Engineer</h2>
@@ -165,7 +165,7 @@ function App() {
                   <span className="tag blue">Backend Web Development</span>
                 </div>
               </div>
-            </div> */}
+            </div> 
 
             <div className="timeline-item blue">
               <div className="timeline-dot"></div>
